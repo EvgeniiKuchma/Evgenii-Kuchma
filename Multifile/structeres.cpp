@@ -2,8 +2,8 @@
 #include "structeres.h";
 void show_person(person& P)
 {
-	std::cout << "èìÿ: " << P.name << '\n';
-	std::cout << "âîçðàñò: " << P.age << '\n'; 
-	std::cout << "äîëæíîñòü: " << P.position << '\n';
-	std::cout << "çàðïëàòà: " << P.salary << '\n';
+	std::cout << "Ð¸Ð¼Ñ: " << P.name << '\n';
+	std::cout << "Ð²Ð¾Ð·Ñ€Ð°ÑÑ‚: " << P.age << '\n'; 
+	std::cout << "Ð´Ð¾Ð»Ð¶Ð½Ð¾ÑÑ‚ÑŒ: " << P.position << '\n';
+	std::cout << "Ð·Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ð°: " << P.salary << '\n'; //
 }
