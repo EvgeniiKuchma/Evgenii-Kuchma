@@ -13,4 +13,4 @@ struct book
 };
 
 void show_book(book* arr, int n);
-book author_name(book* arr, int n);
+std::string author_name(book& B);

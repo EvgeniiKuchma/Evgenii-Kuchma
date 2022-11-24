@@ -4,9 +4,8 @@
 
 void show_book(book* arr, int n)
 {
-	for (int i = 0; i < 3; i++)
-
-		if (i == n)
+for (int i = 0; i < 3; i++)
+if (i == n)
 		{
 			std::cout << arr[n].Name_book << std::endl;
 			std::cout << arr[n].Author << std::endl;
@@ -15,11 +14,7 @@ void show_book(book* arr, int n)
 			std::cout << arr[n].price << std::endl;
 		}
 };
-
-  book author_name(book* arr, int n) 
+std::string author_name(book& B) 
 {
-for (int i =0; i < 3 ; i++)
-	if (i == n) {
-		return  arr[n].Author.substr(' ');
-	};
+	return B.Author.substr(B.Author.find(' '));
 };
